@@ -1,0 +1,13 @@
+An example using Microsoft's WiX with NAnt during an automated build process to generate a deployable MSI file
+
+{Offical Website}[http://wix.sourceforge.net/]
+
+{Schema information,etc.}[http://wix.sourceforge.net/manual-wix2/wix_index.htm]
+
+{Still the best tutorial}[http://www.tramontana.co.hu/wix/]
+
+NOTES:
+
+1. Requires MSI Installer be installed on what ever box you plan to test deployment on.
+
+2. I run {MsiVal2.exe}[http://msdn.microsoft.com/library/en-us/msi/setup/msival2_exe.asp] (including in source lib folder in trunk) against the created MSI to see if we violate any of {Microsoft's Internal Consistency Evaluators(ICE)}[http://msdn.microsoft.com/en-us/library/aa369206.aspx]
